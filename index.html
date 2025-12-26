@@ -1,34 +1,13 @@
 <!doctype html>
-<html lang="ko">
+<html>
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-
-  <!-- OG -->
-  <meta property="og:title" content="테스트 제목" />
-  <meta property="og:description" content="카카오 미리보기 테스트" />
-  <meta property="og:image" content="https://i.ytimg.com/vi/57eCTDCFk48/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGGUgUShMMA8=&rs=AOn4CLBDWYXz_-mjtxTLZAM776E7z2q-jg" />
-  <meta property="og:type" content="website" />
-
-  <title>Redirect Test</title>
-
-  <style>
-    html, body { height: 100%; margin: 0; }
-    a.full {
-      position: fixed; inset: 0;
-      display: block;
-      background: #000 url('./og.jpg') center/cover no-repeat;
-    }
-    .hint{
-      position: fixed; left: 16px; right: 16px; bottom: 18px;
-      color: #fff; font-family: system-ui, sans-serif;
-      font-size: 16px; line-height: 1.4;
-      text-shadow: 0 1px 6px rgba(0,0,0,.6);
-    }
-  </style>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>go</title>
 </head>
 <body>
-  <a class="full" href="https://www.youtube.com/watch?v=57eCTDCFk48"></a>
-  <div class="hint">영상 여는 중… (화면을 탭하면 바로 이동)</div>
+<script>
+  location.replace("https://www.youtube.com/watch?v=57eCTDCFk48");
+</script>
 </body>
 </html>
